@@ -8,18 +8,9 @@ public class Solution {
         int i = 0, j = nums.Length-1;
 
         while (i < j) {
-
-            if (nums[i] % 2 == 0) {
-                i++;
-            }
-            else if (nums[j] % 2 != 0) {
-                j--;
-            }
-            else {
-                (nums[i], nums[j]) = (nums[j], nums[i]);
-                i++;
-                j--;
-            }
+            if (nums[i] % 2 == 0) i++;
+            else if (nums[j] % 2 != 0) j--;
+            else (nums[i], nums[j]) = (nums[j], nums[i]);
         }
         return nums;
     }
