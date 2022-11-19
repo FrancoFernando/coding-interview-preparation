@@ -6,5 +6,6 @@ public class Solution {
         foreach (char c in sentence) isCharUsed[c-'a'] = true;
         
         return isCharUsed.All(c => c);
+        //return new HashSet<char>(sentence).Count == 26; one liner with hashset
      }
 }
