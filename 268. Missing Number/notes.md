@@ -1,11 +1,18 @@
 # Thinking Process 
 
-1. Similar to 645 (Set mismatch). The missing number can be solved using the difference between the sum without missing and the one with missing. In alternative it can be solved with xor. Since x^x=0, the xor of xor of all number without missing and the xor of all number with missing will let disappear all numbers except the missing one. 
+Interesting problem with multiple solution.
 
-# Complexity (approach 1)
+1. Brute Force: sort the input and go through it find the first missing number.
+2. Hash set: put the input into a hash set and find the missing number in the hash set
+3. Bit manipulation: a number xor itself is always 0. So if we xor all the numbers with their index either we get the missing number or this number is the input's length.
+4. Similar to 645 (Set mismatch). The missing number can be solved using the difference between the sum without missing number and the one with missing number. 
 
-* O(N) time
-* O(1) space 
+# Complexity 
+
+1. O(NlogN) time, O(1) space
+2. O(N) time, O(N) space 
+3. O(N) time, O(1) space 
+4. O(N) time, O(1) space 
 
 
 
