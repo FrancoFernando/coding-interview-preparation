@@ -1,14 +1,11 @@
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        
-        int idealXor = nums.size(), realXor = 0;
-        
+
+        int missingNumber = nums.size();
         for (int i = 0; i < nums.size(); ++i) {
-            idealXor ^= i;
-            realXor ^= nums[i];
+            missingNumber ^= nums[i]^i;
         }
-        
-        return realXor ^ idealXor;
+        return missingNumber;
     }
 };
