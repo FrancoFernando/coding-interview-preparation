@@ -23,3 +23,27 @@ public class Solution {
         return true;
     }
 }
+
+//With Dictionar/set
+public class Solution {
+    public bool UniqueOccurrences(int[] arr) {
+        
+        var numToOccurrency = new Dictionary<int,int>();
+
+        foreach (int num in arr) {
+            numToOccurrency.TryGetValue(num, out var count); 
+            numToOccurrency[num] = count + 1;      
+            //if (numberOccurrences.ContainsKey(num)) numberOccurrences[num]++;
+            //else numberOccurrences[num] = 1;
+        }
+
+        var occurencesSet = new HashSet<int>();
+
+        foreach (int occurrency in numToOccurrency.Values) {
+            if (occurrency != 0 && occurencesSet.Contains(occurrency)) return false;
+            occurencesSet.Add(occurrency);
+        }
+
+        return true;
+    }
+}
