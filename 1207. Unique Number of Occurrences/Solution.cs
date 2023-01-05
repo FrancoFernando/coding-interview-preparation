@@ -47,3 +47,15 @@ public class Solution {
         return true;
     }
 }
+
+//With LINQ
+//nice but inefficient
+public class Solution {
+    public bool UniqueOccurrences(int[] arr) {
+        
+        return arr.GroupBy(n => n) // group all equal numbers together
+            .Select(n => n.Count()) // count occurrency of each group
+            .Distinct() // extract distinct occurencies
+            .Count() == arr.Distinct().Count(); // count distinct occurrencies and compare with distinct numbers
+    }
+}
