@@ -1,2 +1,8 @@
-# leetcode
-Collection of solved algorithmic problems from leetcode
+LeetCode
+========
+
+### LeetCode Problems
+
+| # | Title | Solution | Difficulty | Tags |
+|---| ----- | -------- | ---------- | ---- |
+
