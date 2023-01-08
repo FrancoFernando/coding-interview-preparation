@@ -1,12 +1,12 @@
 LeetCode
 ========
 
-This repository contains a list of solved coding problems taken from the Leetcode website. The purpose is to mentor junior developers, helping them in improving their algorithms and data structure skills.
+This repository contains a list of solved coding problems taken from the Leetcode website. The purpose is to mentor junior developers, helping them improve their algorithms and data structure skills.
 
 For each problem are available:
 
 * a solution in multiple programming languages
-* the thinking process neeeded to find the solution
+* the thinking process needed to find the solution
 * the time and space complexity analysis of the solution
 
 ### Problems Categories
