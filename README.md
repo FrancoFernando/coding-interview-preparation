@@ -20,7 +20,7 @@ Here are the solved problems divided by category:
 
 | # | Title | Solution | Difficulty | Tag | Analysis |
 |---| ----- | -------- | ---------- | --- | -------- |
-|0001|[Two Sums](https://leetcode.com/problems/two-sums)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0001.Two-Sums/Solution.cs)|Easy|HashTable|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0001.Two-Sums/notes.md)|
+|0001|[Two Sums](https://leetcode.com/problems/two-sums/description)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0001.Two-Sums/Solution.cs)|Easy|HashTable|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0001.Two-Sums/notes.md)|
 |0013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0013.Roman-to-Integer/Solution.cs)|Easy|HashTable|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0013.Roman-to-Integer/notes.md)|
 |0021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/LinkedList/0021.Merge-Two-Sorted-Lists/Solution.cs)|Easy|LinkedList|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/LinkedList/0021.Merge-Two-Sorted-Lists/notes.md)|
 |0118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/LinkedList/0118.Pascal's-Triangle/Solution.cs)|Easy|Array|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/LinkedList/0118.Pascal's-Triangle/notes.md)
