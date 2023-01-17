@@ -18,6 +18,7 @@ public class Solution {
 }
 
 //LINQ
+//LINQ intersect, when comparing to collections, builds a hashset with one and then iterates over the other, with a time complexity of O(N + M). 
 public class Solution {
     public int[] Intersection(int[] nums1, int[] nums2) {
         return nums1.Intersect(nums2).ToArray();
