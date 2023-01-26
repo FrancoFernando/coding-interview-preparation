@@ -23,3 +23,25 @@ public class Solution {
         return prevNode;
     }
 }
+
+//naive recirsive solution
+//need to manually set head and tail
+public class Solution {
+
+    ListNode tail = null;
+
+    public ListNode ReverseList(ListNode head) {
+        if (ReverseListH(head) == null) return null;
+        head.next = null;
+        return tail;
+    }
+
+    public ListNode ReverseListH(ListNode head) {
+        
+        if (head == null) return null;
+        var prevNode = ReverseListH(head.next);
+        if (prevNode != null) prevNode.next = head;
+        else tail = head;
+        return head;
+    }
+}
