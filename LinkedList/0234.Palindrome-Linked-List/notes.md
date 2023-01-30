@@ -1,18 +1,20 @@
 ### Thinking Process
 
-The brute force solution would be to copy the linked list value into an array and check if they're palidrome using 2 pointers.
+The problem asks to find if a linked list holding integer values is a palindrome or not.
 
-A more elegant solution is given by recursion. Both current node and its nopposite are sent down to the recursion stack.
-When the function returns the current node is compared to the opposite and the opposite and the opposite advances.
-The opposite node shall be passed by reference so that it's update returning back from the recursion stack.
-Or it can be a global vartiable.
+The brute force solution would be to copy the linked list values into an array and check if they're palindrome using the 2-pointer method. However, this solution's time and space complexity are O(N).
 
-A more optimiized solution in term of space is given by 3 step:
+Recursion provides a more elegant solution with the same asymptotic complexity. The current node and its opposite are sent down to the recursion stack. When the function returns, the algorithm compares the current node to the opposite and advances the opposite. The opposite node shall be passed by reference so that its update returns from the recursion stack. Or it can be a global variable.
+
+The following algorithm gives a more optimized solution in terms of space:
 
 1. Find the middle of the list
+
 2. Reverse the 2nd half of the list
-3. compare the 2 halves of the list
-4. restore the list as it was
+
+3. Compare the two halves of the list
+
+4. Restore the list as it was (if required)
 
 ### Complexity
 
