@@ -18,3 +18,18 @@ public class Solution {
         });
     }
 }
+
+// StringBuilder as stack
+public class Solution {
+    public string MakeGood(string s) {
+        
+        var sb = new StringBuilder();
+        foreach (char c in s) {
+            char otherCase = Char.IsLower(c) ? Char.ToUpper(c) : Char.ToLower(c);
+            if (sb.Length > 0 && sb[sb.Length-1] == otherCase) sb.Remove(sb.Length-1,1);
+            else sb.Append(c);
+        }
+
+        return sb.ToString();
+    }
+}
