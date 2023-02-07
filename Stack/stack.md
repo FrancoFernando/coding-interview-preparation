@@ -1,4 +1,4 @@
-### Array Problems
+### Stack Problems
 
 | # | Title | Solution | Difficulty | Tag | Analysis |
 |---| ----- | -------- | ---------- | --- | -------- |
