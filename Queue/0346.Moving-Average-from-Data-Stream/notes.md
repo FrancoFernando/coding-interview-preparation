@@ -6,5 +6,5 @@ A queue does the job.
 
 ### Complexity
 
-* O(N) time
+* O(1) time to process each element
 * O(S) space where is is the window's size
