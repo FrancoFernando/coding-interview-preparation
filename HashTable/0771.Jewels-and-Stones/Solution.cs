@@ -1,3 +1,12 @@
+// Count after filtering jewels
+public class Solution {
+    public int NumJewelsInStones(string jewels, string stones) {
+        var jewelsSet = new HashSet<char>(jewels.ToCharArray());   
+        return stones.Where(s => jewelsSet.Contains(s)).Count();
+    }
+}
+
+// First count and then filter jewels (less efficient)
 public class Solution {
     public int NumJewelsInStones(string jewels, string stones) {
         var stonesFrequency = new Dictionary<char,int>();
