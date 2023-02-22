@@ -9,5 +9,8 @@
 |0242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0242.Valid-Anagram/Solution.cs) [C++](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0242.Valid-Anagram/Solution.cpp)|Easy|HashTable|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0242.Valid-Anagram/notes.md)|
 |0359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0359.Logger-Rate-Limiter/Solution.cs)|Easy|HashTable|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0359.Logger-Rate-Limiter/notes.md)|
 |0387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0387.First-Unique-Character-in-a-String/Solution.cs)|Easy|HashTable|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0387.First-Unique-Character-in-a-String/notes.md)|
+|0771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0771.Jewels-and-Stones/Solution.cs)|Easy|HashTable|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/0771.Jewels-and-Stones/notes.md)|
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/1207.Unique-Number-of-Occurrences/C#)|Easy|HashTable|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/HashTable/1207.Unique-Number-of-Occurrences/notes.md)|
+
+
 
