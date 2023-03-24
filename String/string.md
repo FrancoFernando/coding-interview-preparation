@@ -7,7 +7,7 @@
 |0412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/String/0412.Fizz-Buzz/Solution.cs)|Easy|String|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/String/0412.Fizz-Buzz/notes.md)|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/String/1047.Remove-All-Adjacent-Duplicates-In-String/Solution.cs)|Easy|String|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/String/1047.Remove-All-Adjacent-Duplicates-In-String/notes.md)|
 |2068|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/String/2068.Check-Whether-Two-Strings-are-Almost-Equivalent/Solution.cs)|Easy|String|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/String/2068.Check-Whether-Two-Strings-are-Almost-Equivalent/notes.md)|
-|2390|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/String/2068.RemovingStarsFromaString/Solution.cs)|Medium|String|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/String/2068.RemovingStarsFromaString/notes.md)|
+|2390|[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/String/2068.Removing-Stars-From-a-String/Solution.cs)|Medium|String|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/String/2068.Removing-Stars-From-a-String/notes.md)|
 
 
 
