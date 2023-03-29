@@ -20,3 +20,23 @@ public class Solution {
         return 1 + Math.Max(MaxDepth(root.left), MaxDepth(root.right));
     }
 }
+
+//Iterative
+public class Solution {
+    public int MaxDepth(TreeNode root) {
+        
+        int maxDepth = 0;
+
+        var s = new Stack<(TreeNode, int)>();
+        if (root != null) s.Push((root,1));
+
+        while (s.Count() > 0) {
+            var (node, depth) = s.Pop();
+            maxDepth = Math.Max(maxDepth, depth);
+            if (node.left != null) s.Push((node.left, depth+1));
+            if (node.right != null) s.Push((node.right, depth+1));
+        }
+ 
+        return maxDepth;
+    }
+}
