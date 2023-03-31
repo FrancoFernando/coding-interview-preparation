@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Difficulty | Tag | Analysis |
 |---| ----- | -------- | ---------- | --- | -------- |
+|0103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/Tree/0103.Binary-Tree-Zigzag-Level-Order-Traversal/Solution.cs)|Medium|Tree|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/Tree/0103.Binary-Tree-Zigzag-Level-Order-Traversal/notes.md)|
 |0104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/Tree/0104.Maximum-Depth-of-Binary-Tree/Solution.cs)|Easy|Tree|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/Tree/0104.Maximum-Depth-of-Binary-Tree/notes.md)|
 |0111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/Tree/0111.Minimum-Depth-of-Binary-Tree/Solution.cs)|Easy|Tree|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/Tree/0111.Minimum-Depth-of-Binary-Tree/notes.md)|
 |0543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)|[C#](https://github.com/FrancoFernando/leetcode/blob/main/Tree/0543.Diameter-of-Binary-Tree/Solution.cs)|Easy|Tree|[Notes](https://github.com/FrancoFernando/leetcode/blob/main/Tree/0543.Diameter-of-Binary-Tree/notes.md)|
