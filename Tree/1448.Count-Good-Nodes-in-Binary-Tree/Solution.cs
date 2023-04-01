@@ -34,6 +34,3 @@ public class Solution {
         return dfs(root, root.val);
     }
 }
-
-//the path from root to x shall be monotonically increasing
-//1. dfs keeping the max alomng the path and returning the count
