@@ -8,6 +8,7 @@ The time complexity would be O(N^2). But that's a lot of unnecessary work.
 
 A greedy approach leads to the optimal solution. While iterating through the array, keep and update the minimum buying price.
 For each price, try to sell using that minimum buying price.
+
 ### Complexity 
 
 * The time complexity is O(N)
