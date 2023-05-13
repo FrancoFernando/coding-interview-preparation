@@ -29,3 +29,36 @@ public class Solution {
         return dp[len];
     }
 }
+
+// iterative
+
+public class Solution {
+
+    private const int mod = 1_000_000_007;
+    private int[] dp;
+
+    public int CountGoodStrings(int low, int high, int zero, int one) {
+        
+        dp = new int[high+1];
+        dp[0] = 1;
+        for (int i = 0; i < dp.Length; ++i) {
+            if (dp[i] > 0) {
+                if (i+zero < dp.Length) {
+                    dp[i+zero] += (dp[i] % mod);
+                    dp[i+zero] %= mod;
+                } 
+                if (i+one < dp.Length) {
+                    dp[i+one] += (dp[i] % mod);
+                    dp[i+one] %= mod;
+                } 
+            }
+        }
+        
+        int ans = 0;
+        for (int i = low; i < dp.Length; ++i) {
+            ans += dp[i];
+            ans %= mod;
+        } 
+        return ans;
+    }
+}
