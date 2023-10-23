@@ -1,4 +1,4 @@
-```
+'''
 
 # Intuition
 
@@ -15,7 +15,7 @@ Count number of odd and even position and return the minimum
 
 - Space complexity: O(1)
 
-```
+'''
 
 # Code
 
