@@ -1,7 +1,7 @@
 Coding Interview Preparation
 ========
 
-This repository contains a list of solved coding problems taken from the Leetcode website. The purpose is to mentor junior developers, helping them improve their algorithms and data structure skills.
+This repository contains a guide to Software Engineering coding interviews. 
 
 For each problem are available:
 
