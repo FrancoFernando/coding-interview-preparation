@@ -42,4 +42,11 @@ Constraints:
 
 # Tought process
 
+1. Maintain two minheaps of size candidates: one for the left and one for the right.
+2. Compare the top element from two heaps and remove the appropriate one; for ties take the one on the left
+3. Add a new element to the heap and maintain its size as candidates untill worker are all in the heaps.
+
 # Complexity
+
+O(NlogC) time, where N are the total workers and C the candidates
+O(C) space for the heaps
