@@ -32,7 +32,15 @@ piles.length <= h <= 109
 
 # Thought Process
 
-Brute force is to check all possible eating rate from 1 to Max number
+Brute force is to check all possible eating rates from 1 to Max number and find the first one allowing to eat all piles within the time.
+
+But this is unnecessary because we can use binary search. 
+
+If we try to answer the question "can we eat all the piles with a given rate k?" we will get the following answera:
+
+No, No, No, ...., No, Yes, Yes, ..., Yes for all possible k from 1 to max
+
+We can use binary search to find the first yes.
 
 # Complexity
 
