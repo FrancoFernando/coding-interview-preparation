@@ -39,4 +39,10 @@ Constraints:
 
 # Thought Process
 
+Classic backtracking problem where you need to generate all the possible combinations.
+The only possible optimization:
+- run through each digit in increasing order to early return as soon the current sum is too large
+
 # Complexity
+Time Complexity: O(C(9,k)), where C(n,k) is the binomial coefficient.
+Space Complexity: O(k) for the recursion stack and the current list,
