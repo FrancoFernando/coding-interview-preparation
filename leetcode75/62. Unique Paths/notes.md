@@ -29,4 +29,16 @@ Constraints:
 
 # Thought process
 
+Let's say P[i][j] are the number of unique paths to reach cell[i][j]. 
+Then from the problem definition: P[i][j] = P[i-1][j] + P[i][j-1] = paths from up + path from right
+
+The dp approach implementing according to the formula takes O(m*n) space.
+
+Observing that at each step we only use the previous row the space can be optimized to O(n).
+
+When we move to a new row (in the outer loop), the values in dp already represent the number of paths from the top for each column.
+
 # Complexity
+
+Time complexity is O(m*n)
+Space complexity is O(m*n) if not optimized or O(n) if optimized
