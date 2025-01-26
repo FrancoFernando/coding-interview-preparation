@@ -36,4 +36,8 @@ At most 3 * 104 calls in total will be made to insert, search, and startsWith.
 
 # Thought Process
 
+Implementation of the Trie data structure.
+
 # Complexity
+
+O(N) time for all the three operations
