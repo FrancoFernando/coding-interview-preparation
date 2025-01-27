@@ -1,62 +1,58 @@
-public class Solution {
+public class Trie {
 
-    public class Trie {
-        private class Node {
-            public Node[] Children { get; } = new Node[26];
-            public SortedSet<string> Words { get; } = new SortedSet<string>();
+    private const int AlphabetSize = 26;
+    private readonly Node _root;
 
-            public Node() {
-                Children = new Node[26];
-                Words = new SortedSet<string>();
-            }
-        }
+    private class Node {
+        public Node[] Children { get; }
+        public bool IsEndOfWord { get; set; }
 
-        private Node _root;
-
-        public Trie() {
-            _root = new Node();
-        }
-
-        public void Insert (string word) {
-            var current = _root;
-            foreach (char c  in word) {
-                int index = c-'a'; 
-                current.Children[index] ??= new Node();
-                current = current.Children[index];
-                current.Words.Add(word);
-                if (current.Words.Count > 3) {
-                    current.Words.Remove(current.Words.Last());
-                }
-            }
-        }
-
-        public List<string> Search (string prefix) {
-            var current = _root;
-            foreach (char c in prefix) {
-                int index = c-'a'; 
-                current = current.Children[index];
-                if (current == null)
-                    return new List<string>();
-            }
-            return current.Words.ToList();
+        public Node() {
+            Children = new Node[AlphabetSize];
+            IsEndOfWord = false;
         }
     }
 
-    public IList<IList<string>> SuggestedProducts(string[] products, string searchWord) {
-        
-        var result = new List<IList<string>>();
-        var trie = new Trie();
-
-        foreach(var product in products) {
-            trie.Insert(product);
+    public Trie() {
+        _root = new Node();
+    }
+    
+    public void Insert(string word) {
+        Node current = _root;
+        foreach (char c in word) {
+            int index = c - 'a';
+            current.Children[index] ??= new Node();
+            current = current.Children[index];
         }
+        current.IsEndOfWord = true;
+    }
+    
+    public bool Search(string word) {
+        Node node = FindNode(word);
+        return node != null && node.IsEndOfWord;
+    }
+    
+    public bool StartsWith(string prefix) {
+        return FindNode(prefix) != null;
+    }
 
-        var prefix = new StringBuilder();
-
-        foreach(char c in searchWord) {
-            prefix.Append(c);
-            result.Add(trie.Search(prefix.ToString()));
+    private Node FindNode(string s) {
+        Node current = _root;
+        foreach (char c in s) {
+            int index = c - 'a';
+            if (current.Children[index] == null) {
+                return null;
+            }
+            current = current.Children[index];
         }
-        return result;
+        return current;
     }
 }
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie obj = new Trie();
+ * obj.Insert(word);
+ * bool param_2 = obj.Search(word);
+ * bool param_3 = obj.StartsWith(prefix);
+ */
