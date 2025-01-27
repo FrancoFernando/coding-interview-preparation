@@ -3,12 +3,10 @@ public class Solution {
     public class Trie {
         private class Node {
             public Node[] Children { get; } = new Node[26];
-            public bool IsEndOfWord { get; set; }
             public SortedSet<string> Words { get; } = new SortedSet<string>();
 
             public Node() {
                 Children = new Node[26];
-                IsEndOfWord = false;
                 Words = new SortedSet<string>();
             }
         }
@@ -30,7 +28,6 @@ public class Solution {
                     current.Words.Remove(current.Words.Last());
                 }
             }
-            current.IsEndOfWord = true;
         }
 
         public List<string> Search (string prefix) {
@@ -49,15 +46,16 @@ public class Solution {
         
         var result = new List<IList<string>>();
         var trie = new Trie();
-        string prefix = "";
 
         foreach(var product in products) {
             trie.Insert(product);
         }
 
+        var prefix = new StringBuilder();
+
         foreach(char c in searchWord) {
-            prefix = prefix + c;
-            result.Add(trie.Search(prefix));
+            prefix.Append(c);
+            result.Add(trie.Search(prefix.ToString()));
         }
         return result;
     }
