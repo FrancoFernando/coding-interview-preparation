@@ -31,3 +31,23 @@ All the strings of products are unique.
 products[i] consists of lowercase English letters.
 1 <= searchWord.length <= 1000
 searchWord consists of lowercase English letters.
+
+Thought Process:
+
+This is a string search and prefix matching problem. It requires efficient retrieval of words with a common prefix.
+Trie (Prefix Tree) is an excellent data structure for prefix-based operations.
+Build a Trie with all products.
+For each prefix of the search word, traverse the Trie and collect matching words.
+Sort the matching words and take the top three.
+Consider storing words directly in the Trie Nodes to avoid repeated search.
+Consider using a data structure to keep the words sorted to simplify the code.
+
+Complexity
+
+Time Complexity:
+
+- Insertion: O(L * log 3) for each word, where L is the word length.
+- Overall building of Trie: O(N * L * log 3), where N is the number of products.
+- Suggestion retrieval: O(M * 3), where M is the length of searchWord.
+Space Complexity:
+- O(N * L) in the worst case, but potentially more space-efficient due to the limit of 3 words per node.
