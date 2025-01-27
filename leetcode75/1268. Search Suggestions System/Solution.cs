@@ -2,12 +2,12 @@ public class Solution {
 
     public class Trie {
         private class Node {
-            Node[] Children;
-            bool IsEndWord;
+            public Node[] Children { get; } = new Node[26];
+            public SortedSet<string> Words { get; } = new SortedSet<string>();
 
             public Node() {
                 Children = new Node[26];
-                IsEndWord = false;
+                Words = new SortedSet<string>();
             }
         }
 
@@ -21,46 +21,47 @@ public class Solution {
             var current = _root;
             foreach (char c  in word) {
                 int index = c-'a'; 
-                current[index] ??= new Node();
-                current = current[index];
+                current.Children[index] ??= new Node();
+                current = current.Children[index];
+                current.Words.Add(word);
+                if (current.Words.Count > 3) {
+                    current.Words.Remove(current.Words.Last());
+                }
             }
-            current.IsEndWord = true;
         }
 
         public List<string> Search (string prefix) {
-            var result = new List<string>();
-        }
-
-        private void Dfs(string word, int index, Node node, List<string> result) {
-
-            if (node.IsEndWord) {
-                result.Add(word);
-                return;
+            var current = _root;
+            foreach (char c in prefix) {
+                int index = c-'a'; 
+                current = current.Children[index];
+                if (current == null)
+                    return new List<string>();
             }
-
-            int trieIndex = word[index]-'a';
-            if (node.Children[trieIndex]) {
-                
-            }
+            return current.Words.ToList();
         }
     }
-
-
 
     public IList<IList<string>> SuggestedProducts(string[] products, string searchWord) {
         
         var result = new List<IList<string>>();
         var trie = new Trie();
-        string prefix = "";
 
         foreach(var product in products) {
             trie.Insert(product);
         }
 
+        var prefix = new StringBuilder();
+
         foreach(char c in searchWord) {
-            var suggestions = new List<string>();
-            prefix = prefix + c;
-            suggestions.Add(trie.Search(prefix));
+            prefix.Append(c);
+            var currentSuggestion = trie.Search(prefix.ToString());
+            if (currentSuggestion != null)
+                result.Add(currentSuggestion);
+            else {
+                while (result.Count < searchWord.Length) result.Add(new List<string>());
+                break;
+            }
         }
         return result;
     }
