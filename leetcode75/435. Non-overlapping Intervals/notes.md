@@ -30,3 +30,16 @@ intervals[i].length == 2
 -5 * 104 <= starti < endi <= 5 * 104
 
 # Thought Process
+
+Brute Force would be to try all possible combinations of intervals. This would be extremely inefficient (exponential time complexity).
+
+Sorting often helps in interval problems, but there are different sorting criteria:
+a) By start time
+b) By end time
+c) By interval length
+
+The key insight that leads to the greedy approach is recognizing that by always choosing the interval with the earliest end time, we maximize our options for the rest of the intervals. 
+
+# Complexity
+
+O(N) time, O(1) space
