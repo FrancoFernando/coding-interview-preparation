@@ -45,6 +45,11 @@ But all the days we have already seen that are <= than the current one cannot an
 
 A stack containing monotonically decreasing temperatures is the perfect data structure for this task.
 
+The stack needs to store pairs of (price, day). For each new price:
+- Pop elements from the stack while their prices are less than or equal to the current price.
+- The span is the difference between the current day and the day of the top element on the stack (or the current day if the stack is empty).
+- Push the current (price, day) pair onto the stack.
+
 # Complexity
 
-O(N) time and O(N) space for the stack
+The time complexity is O(1) amortized for each call to Next (worst case O(n)), and the space complexity is O(n) in the worst case, where n is the number of days.
