@@ -38,5 +38,13 @@ At most 104 calls will be made to next.
 
 # Thought Process
 
+The brute force is to store all the prices in an array: for each day, look at all previous days until a day with price greater than the current is found. This would be O(n^2) time complexity and O(N) space, which is inefficient for large inputs and for a stream of data.
+
+Notice that we're looking for the "last greater element" for each day. The current day's price can always be a possible greater day for the next one. 
+But all the days we have already seen that are <= than the current one cannot anymore and can be discarded.
+
+A stack containing monotonically decreasing temperatures is the perfect data structure for this task.
 
 # Complexity
+
+O(N) time and O(N) space for the stack
