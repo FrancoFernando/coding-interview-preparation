@@ -34,3 +34,11 @@ ui != vi
 0 <= source, destination <= n - 1
 There are no duplicate edges.
 There are no self edges.
+
+# Thought Process
+
+Simple search on an undirected graph. The only thing to do is converting the list of edge representation into an adjacency list.
+
+# Complexity 
+
+The time complexity is O(V + E), where V is the number of vertices and E is the number of edges. The space complexity is also O(V + E) for the graph representation and the visited array.
