@@ -26,3 +26,11 @@ edges[i].length == 2
 0 <= ai <= bi < n
 ai != bi
 There are no repeated edges.
+
+# Though Process
+
+The problem can be solved by running dfs algo on all the graph vertices. Every time you start a dfs on an unvisited node, you discover a new component.
+
+# Complexity 
+
+ The time complexity is O(V + E), where V is the number of vertices and E is the number of edges. The space complexity is also O(V + E) for the graph representation and the visited array.
