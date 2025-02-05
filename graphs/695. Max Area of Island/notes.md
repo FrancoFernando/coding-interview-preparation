@@ -26,3 +26,11 @@ m == grid.length
 n == grid[i].length
 1 <= m, n <= 50
 grid[i][j] is either 0 or 1.
+
+# Thought Process
+
+Iterate through the matrix and start Dfs at each unvisited cell with 1. Count the number of other 1s reachable from there and take the max.
+
+# Complexity
+
+O(NM) time, space may be O(1) reusing the input to mark visited cells
