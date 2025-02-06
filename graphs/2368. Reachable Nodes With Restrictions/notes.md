@@ -36,3 +36,10 @@ edges represents a valid tree.
 All the values of restricted are unique.
 
 # Thought Process
+
+The problem can be solved with a standard DFS approach where the restricted nodes can be considered as already visited. 
+Since the input is a tree and not a graph, it is not necessary to mark the current node as visited, but it is sufficient to be suro not to visit the parent of a node.
+
+# Complexity
+
+The time complexity is O(N), where N is the number of nodes in the tree, as we visit each node once. The space complexity is O(N) for the tree representation and the call stack in the worst case.
