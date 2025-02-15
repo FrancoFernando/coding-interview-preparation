@@ -26,3 +26,12 @@ The input is generated such that answer[i] is guaranteed to fit in a 32-bit inte
  
 
 Follow up: Can you solve the problem in O(1) extra space complexity? (The output array does not count as extra space for space complexity analysis.)
+
+# Thought process
+
+The solution is quite straightforward. First calculate the product of all elements to the left of each element (forward iteration).
+Then, in a second pass, multiplying each element by the product of all elements to its right (backward iteration).
+
+# Complexity
+
+The time complexity is O(n), where n is the length of the input array. The space complexity is O(1), as we're not using any extra space that scales with the input size.
