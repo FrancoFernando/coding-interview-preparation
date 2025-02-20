@@ -41,7 +41,12 @@ We will essentially be working with an undirected and unweighted graph with word
 The problem reqires to find the shortest path from the start node to the destination node, if there exists one. Hence it can be solved using BFS.
 
 An important step  is how to find adjacent nodes i.e. words which differ by one letter. 
-To efficiently find them, we need to do some pre-processing on the words in the given list. 
-The pre-processing involves replacing the letter of a word by a non-alphabet character and store them in a dictionary, so that we can quickly find for each word all the other reachable words.
+Since the alphabet size is limited we can try all the possible replacements for a word and see if in this way the word turns in another word.
+For a fast lookup we store all the words in a hashset.
+In this way we don't need to prebuild the whole graph, but we can build each possible outgoing edge for each node on the fly. 
+This reduces space complexity from O(N^2) to O(N)
 
 # Complexity
+
+The time complexity is O(26 * L * N), where L is the length of each word and N is the number of words. 
+The space complexity is O(N) for the visited and the wordSet as we don't need to store the entire graph.
