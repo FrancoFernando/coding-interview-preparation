@@ -51,3 +51,13 @@ Constraints:
 -104 <= nums[i] <= 104
 -104 <= val <= 104
 At most 104 calls will be made to add.
+
+# Thought Process
+
+Use a minheap to keep the k largst element. For each dequeue an element if it's largest than the new one. 
+
+# Complexity
+
+The time complexity remains O(log k) for each Add operation.
+
+The space complexity is O(k), as we only ever keep at most k elements in the heap.
