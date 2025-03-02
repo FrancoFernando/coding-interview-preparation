@@ -27,3 +27,13 @@ arr.length is even.
 1 <= arr[i] <= 105
 
 # ThoughtProcess
+
+The problem can be solved using a combo of data structures:
+
+- dictionary to count frequencies
+- priorityQueue to extract the greatest frequencies first
+
+# Complexity
+
+Time complexity is O(n log n), where n is the length of the input array. 
+The space complexity is O(n) in the worst case if all elements are unique.
