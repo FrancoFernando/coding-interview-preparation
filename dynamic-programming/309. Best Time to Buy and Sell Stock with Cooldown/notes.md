@@ -47,8 +47,9 @@ The top-down recursive solution uses the following structure:
 
 The bottom-up solution uses the following recurrence:
 
-hold[i] = max(hold[i-1], notHold[i-1] - prices[i])
+hold[i] = max(hold[i-1], notHold[i-1] - prices[i],)
 notHold[i] = max(notHold[i-1], hold[i-1] + prices[i])
+cool[i] = notHold[i-2]
 
 where
 
