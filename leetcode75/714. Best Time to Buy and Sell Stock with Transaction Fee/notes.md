@@ -34,7 +34,7 @@ Constraints:
 
 # Thought Process
 
-This is a dynamic programming problem: we need to try all the possible combinations of buying and salling stocks and subproblems overlap.
+This is a dynamic programming problem: we need to try all the possible combinations of buying and selling stocks and subproblems overlap.
 
 At any given day, we can be in one of two states:
 a) Holding a stock
