@@ -24,3 +24,33 @@ Constraints:
 
 1 <= prices.length <= 5000
 0 <= prices[i] <= 1000
+
+# Thought Process
+
+This is a dynamic programming problem: we need to try all the possible combinations of buying and selling stocks and subproblems overlap.
+
+At any given day, we can be in one of two states:
+a) Holding a stock
+b) Not holding a stock
+
+If we're holding a stock, we can:
+a) Continue holding it
+b) Sell it (and jump the next day)
+If we're not holding a stock, we can:
+a) Continue not holding
+b) Buy a stock
+
+The top-down recursive solution uses the following structure:
+
+- index (current day)
+- canBuy (boolean indicating if we can buy a stock)
+
+The bottom-up solution uses the following recurrence:
+
+hold[i] = max(hold[i-1], notHold[i-1] - prices[i])
+notHold[i] = max(notHold[i-1], hold[i-1] + prices[i])
+
+where
+
+hold[i]: Maximum profit on day i if we're holding a stock
+notHold[i]: Maximum profit on day i if we're not holding a stock
