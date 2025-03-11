@@ -49,8 +49,17 @@ At each step (day) you can decide if do nothing or sell/buy. After we sell we sk
 
 The bottom-up solution uses the following recurrence:
 
-hold[i] = max(hold[i-1], notHold[i-1] - prices[i],)
-notHold[i] = max(notHold[i-1], hold[i-1] + prices[i])
+When we don't own a stock (dp[i][0]), we have two options:
+
+Do nothing (stay without stock): dp[i-1][0]
+Swll a stock we owned yesterday, considering cooldown: dp[i-1][1] + prices[i]
+So: dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
+
+When we own a stock (dp[i][1]), we have two options:
+
+Do nothing (keep holding): dp[i-1][1]
+Buy a stock, but due to cooldown, we must not have sold a stock yesterday: dp[i-2][0] - prices[i]
+So: dp[i][1] = max(dp[i-1][1], dp[i-2][0] - prices[i])
 
 where
 
