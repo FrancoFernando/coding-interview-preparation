@@ -26,5 +26,8 @@ The input graph is guaranteed to be a DAG.
 # Thought Process
 
 The easiest way to find all the paths is to use DFS and backtrack every time you reach the end node.
+It's not necessary to keep track of the visited nodes since each node may need to be visited multiple times and the graph is a dag.
 
 # Complexity
+
+O(2^N * N) time complexity in the worst case, where N is the number of nodes (2^N is the number of vertices). The space complexity is O(N) for the recursion stack and path storage.
