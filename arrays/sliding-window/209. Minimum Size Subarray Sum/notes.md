@@ -25,3 +25,11 @@ Constraints:
  
 
 Follow up: If you have figured out the O(n) solution, try coding another solution of which the time complexity is O(n log(n
+
+# Thought process
+
+Use sliding window: right expand at every step, left shrinks every time the sum inside the window exceed the target.
+
+# Complexity
+
+O(n) time complexity. The space complexity is O(1) as we're only using a constant amount of extra space.
