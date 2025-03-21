@@ -22,4 +22,10 @@ Constraints:
 
 # Thought Process
 
-The same reasonong to Permutation problem applies.
+The same reasonong to Permutation problem applies. 
+The only change is that we want to avoid using multiple times the same value at the same recursion level.
+A local hash set in the backtrack function does the job.
+
+# Complexity 
+
+Same as Permutation.
