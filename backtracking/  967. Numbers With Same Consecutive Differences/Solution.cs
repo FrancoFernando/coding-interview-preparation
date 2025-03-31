@@ -1,17 +1,30 @@
 public class Solution {
     public int[] NumsSameConsecDiff(int n, int k) {
         var result = new List<int>();
-        GenerateNums(result, 1, n, k);
+        for (int digit = 1; digit <= 9; digit++) {
+            GenerateNums(result, digit, n-1, k);
+        }
         return result.ToArray();
     }
     
-    private void NumsSameConsecDiff(List<int> result, string current, int n, int k) {
+    private void GenerateNums(List<int> result, int current, int remainingDigits, int k) {
         
-        if (n == 0) {
+        if (remainingDigits == 0) {
             result.Add(current);
             return;
         }
         
-        for (int next = current + k
+        int lastDigit = current % 10;
+        int nextDigitUp = lastDigit + k;
+        if (nextDigitUp < 10) {
+            int num = current * 10 + nextDigitUp;
+            GenerateNums(result, num, remainingDigits-1, k);
+        }
+
+        int nextDigitDown = lastDigit - k;
+        if (nextDigitDown >=0 && k != 0) {
+            int num = current * 10 + nextDigitDown;
+            GenerateNums(result, num, remainingDigits-1, k);
+        }
     }
 }
