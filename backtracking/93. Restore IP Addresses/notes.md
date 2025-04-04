@@ -26,5 +26,13 @@ Constraints:
 1 <= s.length <= 20
 s consists of digits only.
 
+# Thought process
 
+Backtracking problem where at each recursion step we have to validate the current octet.
+
+# Complexity
+
+The time complexity of this solution is O(1) because an IP address always has 4 parts, and each part can have at most 3 digits. 
+
+The space complexity is O(1) for the same reason - the maximum depth of recursion is 4.
 
