@@ -1,16 +1,40 @@
-Coding Interview Preparation
-========
+# Coding Interview Preparation
 
-This repository contains a guide to Software Engineering coding interviews. 
+Comprehensive collection of coding problems, solutions, and study resources for technical interview preparation.
 
-For each problem are available:
+![Total Problems](https://img.shields.io/badge/problems-2-brightgreen)
+![LeetCode](https://img.shields.io/badge/LeetCode-2-orange)
+![Languages](https://img.shields.io/badge/languages-Python%20%7C%20C++-blue)
 
-* a solution in multiple programming languages
-* the thinking process needed to find the solution
-* the time and space complexity analysis of the solution
+## 📊 Quick Stats
 
-### Problems Categories
+| Platform | Easy | Medium | Hard | Total |
+|----------|------|--------|------|-------|
+| [LeetCode](leetcode/) | 2 | 0 | 0 | 2 |
+| **Total** | **2** | **0** | **0** | **2** |
 
-Here are the solved problems divided by category:
+## 🎯 Navigation
 
-* [Arrays]([https://leetcode.com/problems/roman-to-integer/description/]([https://github.com/FrancoFernando/leetcode/blob/main/LinkedList/linked-list.md](https://github.com/FrancoFernando/leetcode/tree/main/HashTable)))
+### 📚 By Platform
+- **[LeetCode](leetcode/)** - Solutions organized by problem number and category
+
+### 🧠 By Topic
+- [Arrays](topics/arrays/)
+- [Linked Lists](topics/linked-lists/)
+- [Trees](topics/trees/)
+- [Graphs](topics/graphs/)
+- [Dynamic Programming](topics/dynamic-programming/)
+- [Sorting & Searching](topics/sorting-searching/)
+- [Hash Tables](topics/hash-tables/)
+- [View All Topics →](topics/)
+
+### 📖 Study Resources
+- [Cheatsheets](resources/cheatsheets/) - Quick reference guides
+- [Code Templates](resources/templates/) - Reusable patterns
+- [Study Plans](study-plans/) - Blind 75, NeetCode 150
+
+## 🚀 Quick Start
+
+### Setup
+```bash
+cd coding-interview-preparation
