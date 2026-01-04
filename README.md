@@ -37,3 +37,15 @@ Collection of solutions to coding problems and study resources for technical int
 ```bash
 cd leetcode
 python scripts/new_problem.py 1 "Two Sum" Easy
+
+### After solving a new LeetCode Problem
+
+# 1. Update metadata
+leetcode/metadata.json
+
+# 2. Regenerate indexes
+python leetcode/scripts/generate_indexes.py
+
+# 3. Update global stats
+python scripts/generate_stats.py
+
