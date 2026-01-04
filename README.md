@@ -1,22 +1,21 @@
 # Coding Interview Preparation
 
-Comprehensive collection of coding problems, solutions, and study resources for technical interview preparation.
+Collection of solutions to coding problems and study resources for technical interview preparation.
 
-![Total Problems](https://img.shields.io/badge/problems-2-brightgreen)
-![LeetCode](https://img.shields.io/badge/LeetCode-2-orange)
-![Languages](https://img.shields.io/badge/languages-Python%20%7C%20C++-blue)
+![Total Problems](https://img.shields.io/badge/problems-0-brightgreen)
+![LeetCode](https://img.shields.io/badge/LeetCode-0-orange)
 
 ## 📊 Quick Stats
 
 | Platform | Easy | Medium | Hard | Total |
 |----------|------|--------|------|-------|
-| [LeetCode](leetcode/) | 2 | 0 | 0 | 2 |
-| **Total** | **2** | **0** | **0** | **2** |
+| [LeetCode](leetcode/) | 0 | 0 | 0 | 0 |
+| **Total** | **0** | **0** | **0** | **0** |
 
 ## 🎯 Navigation
 
 ### 📚 By Platform
-- **[LeetCode](leetcode/)** - Solutions organized by problem number and category
+- **[LeetCode](leetcode/)** - Solutions organized by problem number
 
 ### 🧠 By Topic
 - [Arrays](topics/arrays/)
@@ -26,15 +25,15 @@ Comprehensive collection of coding problems, solutions, and study resources for 
 - [Dynamic Programming](topics/dynamic-programming/)
 - [Sorting & Searching](topics/sorting-searching/)
 - [Hash Tables](topics/hash-tables/)
-- [View All Topics →](topics/)
 
-### 📖 Study Resources
-- [Cheatsheets](resources/cheatsheets/) - Quick reference guides
-- [Code Templates](resources/templates/) - Reusable patterns
-- [Study Plans](study-plans/) - Blind 75, NeetCode 150
+### 📖 Resources
+- [Cheatsheets](resources/cheatsheets/)
+- [Code Templates](resources/templates/)
+- [Study Plans](study-plans/)
 
 ## 🚀 Quick Start
 
-### Setup
+### Add a New LeetCode Problem
 ```bash
-cd coding-interview-preparation
+cd leetcode
+python scripts/new_problem.py 1 "Two Sum" Easy
