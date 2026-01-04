@@ -4,50 +4,21 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Virtual Environment
 env/
 venv/
 ENV/
-env.bak/
-venv.bak/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Compiled executables
+# Compiled
 *.exe
 *.out
 a.out
-
-# Generated files (optional - uncomment if you want to commit generated files)
-# leetcode/categories/*.md
