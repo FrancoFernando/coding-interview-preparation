@@ -24,3 +24,12 @@ python scripts/new_problem.py <id> "<title>" [difficulty]
 # Examples:
 python scripts/new_problem.py 1 "Two Sum" Easy
 python scripts/new_problem.py 42 "Trapping Rain Water" Hard
+
+### Regenerate Indexes
+
+python scripts/generate_indexes.py
+
+📝 All Problems
+No problems yet. Add your first problem!
+
+[← Back to Main](README.md)
