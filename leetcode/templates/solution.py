@@ -1,33 +1,29 @@
-# {id}. {title}
+"""
+LeetCode #ID: TITLE
+Difficulty: DIFFICULTY
+Link: https://leetcode.com/problems/SLUG/
+"""
 
-**Difficulty:** {difficulty}  
-**Link:** [LeetCode](https://leetcode.com/problems/{slug}/)
+class Solution:
+    def methodName(self):
+        """
+        TODO: Implement solution
+        """
+        pass
 
-## Problem Description
 
-[Paste problem description here]
+def test_solution():
+    """Test cases"""
+    sol = Solution()
+    
+    # Test case 1
+    # result = sol.methodName()
+    # expected = 
+    # assert result == expected
+    # print("Test 1 passed")
+    
+    print("All tests passed!")
 
-## Approach
 
-[Explain your approach and thought process]
-
-## Solution
-
-See [solution.py](solution.py) for implementation.
-
-## Complexity Analysis
-
-- **Time Complexity:** O(?)
-- **Space Complexity:** O(?)
-
-## Key Insights
-
-[What did you learn from this problem?]
-
-## Related Problems
-
-- [Problem Name](#)
-
-## Tags
-
-#{difficulty} #{category}
+if __name__ == "__main__":
+    test_solution()
