@@ -21,19 +21,8 @@ Study notes and problem links organized by topic:
 
 ## Quick Start
 
-### Add a new LeetCode problem
-```bash
-python3 leetcode/scripts/new_problem.py <id> "<title>" <difficulty> "<categories>"
-# Example:
-python3 leetcode/scripts/new_problem.py 1 "Two Sum" Easy "arrays,hash-tables"
-```
-
-### Regenerate indexes
+### Regenerate topic problem lists (from all platforms)
 
 ```bash
-# LeetCode category indexes
-python3 leetcode/scripts/generate_indexes.py
-
-# Topic problem lists (aggregates from all platforms)
 python3 scripts/generate_topic_problems.py
 ```

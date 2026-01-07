@@ -20,12 +20,17 @@
 
 ## Quick Actions
 
-### Add New Problem
+### Add a new LeetCode problem
+
 ```bash
-python scripts/new_problem.py 1 "Two Sum" Easy
+python3 leetcode/scripts/new_problem.py <id> "<title>" <difficulty> "<categories>"
+
+# Example:
+python3 leetcode/scripts/new_problem.py 1 "Two Sum" Easy "arrays,hash-tables"
 ```
 
 ### Regenerate Indexes
+
 ```bash
 python scripts/generate_indexes.py
 ```
