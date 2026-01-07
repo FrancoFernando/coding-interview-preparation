@@ -2,50 +2,38 @@
 
 Collection of solutions to coding problems and study resources for technical interview preparation.
 
-![Total Problems](https://img.shields.io/badge/problems-0-brightgreen)
-![LeetCode](https://img.shields.io/badge/LeetCode-0-orange)
+## Platforms
 
-## 📊 Quick Stats
+- [LeetCode](leetcode/) - Solutions and stats
 
-| Platform | Easy | Medium | Hard | Total |
-|----------|------|--------|------|-------|
-| [LeetCode](leetcode/) | 0 | 0 | 0 | 0 |
-| **Total** | **0** | **0** | **0** | **0** |
+## Topics
 
-## 🎯 Navigation
+Study notes and problem links organized by topic:
 
-### 📚 By Platform
-- **[LeetCode](leetcode/)** - Solutions organized by problem number
-
-### 🧠 By Topic
 - [Arrays](topics/arrays/)
-- [Linked Lists](topics/linked-lists/)
-- [Trees](topics/trees/)
-- [Graphs](topics/graphs/)
 - [Dynamic Programming](topics/dynamic-programming/)
-- [Sorting & Searching](topics/sorting-searching/)
+- [Graphs](topics/graphs/)
 - [Hash Tables](topics/hash-tables/)
+- [Linked Lists](topics/linked-lists/)
+- [Searching](topics/searching/)
+- [Sorting](topics/sorting/)
+- [Trees](topics/trees/)
 
-### 📖 Resources
-- [Cheatsheets](resources/cheatsheets/)
-- [Code Templates](resources/templates/)
-- [Study Plans](study-plans/)
+## Quick Start
 
-## 🚀 Quick Start
-
-### Add a New LeetCode Problem
+### Add a new LeetCode problem
 ```bash
-cd leetcode
-python scripts/new_problem.py 1 "Two Sum" Easy
+python3 leetcode/scripts/new_problem.py <id> "<title>" <difficulty> "<categories>"
+# Example:
+python3 leetcode/scripts/new_problem.py 1 "Two Sum" Easy "arrays,hash-tables"
+```
 
-### After solving a new LeetCode Problem
+### Regenerate indexes
 
-# 1. Update metadata
-leetcode/metadata.json
+```bash
+# LeetCode category indexes
+python3 leetcode/scripts/generate_indexes.py
 
-# 2. Regenerate indexes
-python leetcode/scripts/generate_indexes.py
-
-# 3. Update global stats
-python scripts/generate_stats.py
-
+# Topic problem lists (aggregates from all platforms)
+python3 scripts/generate_topic_problems.py
+```

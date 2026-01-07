@@ -2,7 +2,7 @@
 
 ![Problems Solved](https://img.shields.io/badge/solved-1-blue)
 
-## Statistics
+##  📊 Statistics
 
 | Difficulty | Count |
 |------------|-------|
