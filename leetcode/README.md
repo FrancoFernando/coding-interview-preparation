@@ -1,35 +1,41 @@
 # LeetCode Solutions
 
-![Problems Solved](https://img.shields.io/badge/solved-0-blue)
+![Problems Solved](https://img.shields.io/badge/solved-1-blue)
 
-## 📊 Statistics
+## Statistics
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 0     |
+| Easy       | 1     |
 | Medium     | 0     |
 | Hard       | 0     |
-| **Total**  | **0** |
+| **Total**  | **1** |
 
-## 🗂️ Browse by Category
+## Browse by Category
 
-Category indexes will be auto-generated in the [categories/](categories/) folder.
+- [arrays](categories/arrays.md)
+- [hash-tables](categories/hash-tables.md)
 
-## 🚀 Quick Actions
+[View All](categories/)
+
+## Quick Actions
 
 ### Add New Problem
 ```bash
-python scripts/new_problem.py <id> "<title>" [difficulty]
-
-# Examples:
 python scripts/new_problem.py 1 "Two Sum" Easy
-python scripts/new_problem.py 42 "Trapping Rain Water" Hard
+```
 
 ### Regenerate Indexes
-
+```bash
 python scripts/generate_indexes.py
+```
 
-📝 All Problems
-No problems yet. Add your first problem!
+## All Problems
 
-[← Back to Main](README.md)
+| # | Title | Difficulty | Categories |
+|---|-------|------------|------------|
+| 1 | [Two Sum](problems/0001-two-sum) | Easy | arrays, hash-tables |
+
+---
+
+*Last updated: 2026-01-07*
