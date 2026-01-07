@@ -1,3 +1,16 @@
 {
-  "problems": []
+  "problems": [
+    {
+      "id": 1,
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "categories": [
+        "arrays",
+        "hash-tables"
+      ],
+      "link": "https://leetcode.com/problems/two-sum/",
+      "notes": "",
+      "date_solved": "2026-01-07"
+    }
+  ]
 }
