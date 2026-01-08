@@ -17,6 +17,7 @@ Study notes and problem links organized by topic:
 - [Linked Lists](topics/linked-lists/)
 - [Searching](topics/searching/)
 - [Sorting](topics/sorting/)
+- [Strings](topics/strings/)
 - [Trees](topics/trees/)
 
 ## Quick Start
