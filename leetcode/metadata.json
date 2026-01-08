@@ -11,6 +11,41 @@
       "link": "https://leetcode.com/problems/two-sum/",
       "notes": "",
       "date_solved": "2026-01-07"
+    },
+    {
+      "id": 560,
+      "title": "Subarray Sum Equals K",
+      "difficulty": "Medium",
+      "categories": [
+        "arrays",
+        "hash-tables"
+      ],
+      "link": "https://leetcode.com/problems/subarray-sum-equals-k/",
+      "notes": "",
+      "date_solved": "2026-01-07"
+    },
+    {
+      "id": 1426,
+      "title": "Counting Elements",
+      "difficulty": "Easy",
+      "categories": [
+        "hash-tables"
+      ],
+      "link": "https://leetcode.com/problems/counting-elements/",
+      "notes": "",
+      "date_solved": "2026-01-07"
+    },
+    {
+      "id": 1832,
+      "title": "Check if the Sentence Is Pangram",
+      "difficulty": "Easy",
+      "categories": [
+        "hash-tables",
+        "strings"
+      ],
+      "link": "https://leetcode.com/problems/check-if-the-sentence-is-pangram/",
+      "notes": "",
+      "date_solved": "2026-01-07"
     }
   ]
 }
