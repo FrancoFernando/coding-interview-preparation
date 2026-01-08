@@ -111,7 +111,7 @@ def generate_problems_md(topic, problems):
                 notes = p.get("notes", "")
                 solution_path = get_problem_path(p)
 
-                lines.append(f"| {problem_id} | [{title}]({link}) | [Solution](../{solution_path}) | {notes} |")
+                lines.append(f"| {problem_id} | [{title}]({link}) | [Solution](../../{solution_path}) | {notes} |")
 
             lines.append("")
 
