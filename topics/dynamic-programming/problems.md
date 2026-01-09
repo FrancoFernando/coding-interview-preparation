@@ -1,5 +1,5 @@
 # Dynamic Programming Problems
 
-_Last updated: 2026-01-08_
+_Last updated: 2026-01-09_
 
 No problems linked to this topic yet.
