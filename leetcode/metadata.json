@@ -13,6 +13,61 @@
       "date_solved": "2026-01-07"
     },
     {
+      "id": 19,
+      "title": "Remove Nth Node From End of List",
+      "difficulty": "Medium",
+      "categories": [
+        "linked-lists"
+      ],
+      "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      "notes": "",
+      "date_solved": "2026-01-08"
+    },
+    {
+      "id": 83,
+      "title": "Remove Duplicates from Sorted List",
+      "difficulty": "Easy",
+      "categories": [
+        "linked-lists"
+      ],
+      "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+      "notes": "",
+      "date_solved": "2026-01-08"
+    },
+    {
+      "id": 203,
+      "title": "Remove Linked List Elements",
+      "difficulty": "Easy",
+      "categories": [
+        "linked-lists"
+      ],
+      "link": "https://leetcode.com/problems/remove-linked-list-elements/",
+      "notes": "",
+      "date_solved": "2026-01-08"
+    },
+    {
+      "id": 234,
+      "title": "Palindrome Linked List",
+      "difficulty": "Easy",
+      "categories": [
+        "linked-lists"
+      ],
+      "link": "https://leetcode.com/problems/palindrome-linked-list/",
+      "notes": "",
+      "date_solved": "2026-01-08"
+    },
+    {
+      "id": 328,
+      "title": "Odd Even Linked List",
+      "difficulty": "Medium",
+      "categories": [
+        "linked-lists"
+      ],
+      "link": "https://leetcode.com/problems/odd-even-linked-list/",
+      "notes": "",
+      "date_solved": "2026-01-08"
+    },
+    {
       "id": 560,
       "title": "Subarray Sum Equals K",
       "difficulty": "Medium",
@@ -23,6 +78,28 @@
       "link": "https://leetcode.com/problems/subarray-sum-equals-k/",
       "notes": "",
       "date_solved": "2026-01-07"
+    },
+    {
+      "id": 707,
+      "title": "Design Linked List",
+      "difficulty": "Medium",
+      "categories": [
+        "linked-lists"
+      ],
+      "link": "https://leetcode.com/problems/design-linked-list/",
+      "notes": "",
+      "date_solved": "2026-01-08"
+    },
+    {
+      "id": 1290,
+      "title": "Convert Binary Number in a Linked List to Integer",
+      "difficulty": "Easy",
+      "categories": [
+        "linked-lists"
+      ],
+      "link": "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
+      "notes": "",
+      "date_solved": "2026-01-08"
     },
     {
       "id": 1426,
@@ -36,6 +113,17 @@
       "date_solved": "2026-01-07"
     },
     {
+      "id": 1721,
+      "title": "Swapping Nodes in a Linked List",
+      "difficulty": "Medium",
+      "categories": [
+        "linked-lists"
+      ],
+      "link": "https://leetcode.com/problems/swapping-nodes-in-a-linked-list/",
+      "notes": "",
+      "date_solved": "2026-01-08"
+    },
+    {
       "id": 1832,
       "title": "Check if the Sentence Is Pangram",
       "difficulty": "Easy",
@@ -46,6 +134,39 @@
       "link": "https://leetcode.com/problems/check-if-the-sentence-is-pangram/",
       "notes": "",
       "date_solved": "2026-01-07"
+    },
+    {
+      "id": 2074,
+      "title": "Reverse Nodes in Even Length Groups",
+      "difficulty": "Medium",
+      "categories": [
+        "linked-lists"
+      ],
+      "link": "https://leetcode.com/problems/reverse-nodes-in-even-length-groups/",
+      "notes": "",
+      "date_solved": "2026-01-08"
+    },
+    {
+      "id": 2095,
+      "title": "Delete the Middle Node of a Linked List",
+      "difficulty": "Medium",
+      "categories": [
+        "linked-lists"
+      ],
+      "link": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/",
+      "notes": "",
+      "date_solved": "2026-01-08"
+    },
+    {
+      "id": 2130,
+      "title": "Maximum Twin Sum of a Linked List",
+      "difficulty": "Medium",
+      "categories": [
+        "linked-lists"
+      ],
+      "link": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/",
+      "notes": "",
+      "date_solved": "2026-01-08"
     }
   ]
 }
