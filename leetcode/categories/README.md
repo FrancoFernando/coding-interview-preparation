@@ -8,6 +8,9 @@
 ## [hash-tables](hash-tables.md)
 **4 problems** - Easy: 3, Medium: 1, Hard: 0
 
+## [linked-lists](linked-lists.md)
+**11 problems** - Easy: 4, Medium: 7, Hard: 0
+
 ## [strings](strings.md)
 **1 problems** - Easy: 1, Medium: 0, Hard: 0
 
