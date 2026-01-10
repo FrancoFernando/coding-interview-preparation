@@ -5,6 +5,12 @@
 ## [arrays](arrays.md)
 **2 problems** - Easy: 1, Medium: 1, Hard: 0
 
+## [backtracking](backtracking.md)
+**11 problems** - Easy: 0, Medium: 10, Hard: 1
+
+## [graphs](graphs.md)
+**1 problems** - Easy: 0, Medium: 1, Hard: 0
+
 ## [hash-tables](hash-tables.md)
 **4 problems** - Easy: 3, Medium: 1, Hard: 0
 
