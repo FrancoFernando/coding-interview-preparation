@@ -24,6 +24,83 @@
       "date_solved": "2026-01-08"
     },
     {
+      "id": 22,
+      "title": "Generate Parentheses",
+      "difficulty": "Medium",
+      "categories": [
+        "backtracking"
+      ],
+      "link": "https://leetcode.com/problems/generate-parentheses/",
+      "notes": "",
+      "date_solved": "2026-01-09"
+    },
+    {
+      "id": 39,
+      "title": "Combination Sum",
+      "difficulty": "Medium",
+      "categories": [
+        "backtracking"
+      ],
+      "link": "https://leetcode.com/problems/combination-sum/",
+      "notes": "",
+      "date_solved": "2026-01-09"
+    },
+    {
+      "id": 40,
+      "title": "Combination Sum II",
+      "difficulty": "Medium",
+      "categories": [
+        "backtracking"
+      ],
+      "link": "https://leetcode.com/problems/combination-sum-ii/",
+      "notes": "",
+      "date_solved": "2026-01-09"
+    },
+    {
+      "id": 46,
+      "title": "Permutations",
+      "difficulty": "Medium",
+      "categories": [
+        "backtracking"
+      ],
+      "link": "https://leetcode.com/problems/permutations/",
+      "notes": "",
+      "date_solved": "2026-01-09"
+    },
+    {
+      "id": 47,
+      "title": "Permutations II",
+      "difficulty": "Medium",
+      "categories": [
+        "backtracking"
+      ],
+      "link": "https://leetcode.com/problems/permutations-ii/",
+      "notes": "",
+      "date_solved": "2026-01-09"
+    },
+    {
+      "id": 51,
+      "title": "N-Queens",
+      "difficulty": "Hard",
+      "categories": [
+        "backtracking"
+      ],
+      "link": "https://leetcode.com/problems/n-queens/",
+      "notes": "",
+      "date_solved": "2026-01-09"
+    },
+    {
+      "id": 78,
+      "title": "Subsets",
+      "difficulty": "Medium",
+      "categories": [
+        "backtracking"
+      ],
+      "link": "https://leetcode.com/problems/subsets/",
+      "notes": "",
+      "date_solved": "2026-01-09"
+    },
+    {
       "id": 83,
       "title": "Remove Duplicates from Sorted List",
       "difficulty": "Easy",
@@ -35,6 +112,17 @@
       "date_solved": "2026-01-08"
     },
     {
+      "id": 93,
+      "title": "Restore IP Addresses",
+      "difficulty": "Medium",
+      "categories": [
+        "backtracking"
+      ],
+      "link": "https://leetcode.com/problems/restore-ip-addresses/",
+      "notes": "",
+      "date_solved": "2026-01-09"
+    },
+    {
       "id": 203,
       "title": "Remove Linked List Elements",
       "difficulty": "Easy",
@@ -44,6 +132,17 @@
       "link": "https://leetcode.com/problems/remove-linked-list-elements/",
       "notes": "",
       "date_solved": "2026-01-08"
+    },
+    {
+      "id": 216,
+      "title": "Combination Sum III",
+      "difficulty": "Medium",
+      "categories": [
+        "backtracking"
+      ],
+      "link": "https://leetcode.com/problems/combination-sum-iii/",
+      "notes": "",
+      "date_solved": "2026-01-09"
     },
     {
       "id": 234,
@@ -89,6 +188,29 @@
       "link": "https://leetcode.com/problems/design-linked-list/",
       "notes": "",
       "date_solved": "2026-01-08"
+    },
+    {
+      "id": 797,
+      "title": "All Paths From Source to Target",
+      "difficulty": "Medium",
+      "categories": [
+        "backtracking",
+        "graphs"
+      ],
+      "link": "https://leetcode.com/problems/all-paths-from-source-to-target/",
+      "notes": "",
+      "date_solved": "2026-01-09"
+    },
+    {
+      "id": 967,
+      "title": "Numbers With Same Consecutive Differences",
+      "difficulty": "Medium",
+      "categories": [
+        "backtracking"
+      ],
+      "link": "https://leetcode.com/problems/numbers-with-same-consecutive-differences/",
+      "notes": "",
+      "date_solved": "2026-01-09"
     },
     {
       "id": 1290,
