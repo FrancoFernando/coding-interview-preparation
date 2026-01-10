@@ -11,6 +11,7 @@ Collection of solutions to coding problems and study resources for technical int
 Study notes and problem links organized by topic:
 
 - [Arrays](topics/arrays/)
+- [Backtracking](topics/backtracking/)
 - [Dynamic Programming](topics/dynamic-programming/)
 - [Graphs](topics/graphs/)
 - [Hash Tables](topics/hash-tables/)
